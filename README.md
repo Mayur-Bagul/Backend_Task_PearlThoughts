@@ -33,7 +33,7 @@ resilient-email-service/
 
 ---
 
-## installation
+## Installation
 ```bash
 git clone https://github.com/Mayur-Bagul/resilient-email-service.git
 cd resilient-email-service

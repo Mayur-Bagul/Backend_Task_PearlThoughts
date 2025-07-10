@@ -33,8 +33,7 @@ resilient-email-service/
 
 ---
 
-## 📦 Installation
-
+## installation
 ```bash
 git clone https://github.com/Mayur-Bagul/resilient-email-service.git
 cd resilient-email-service
@@ -44,7 +43,7 @@ bash
 npm run dev
 Server runs at: http://localhost:3000
 
-🧪 API Usage
+## 🧪 API Usage
 Endpoint
 bash
 POST /send-email
@@ -60,7 +59,7 @@ json
   "status": "queued",
   "id": "email-001"
 }
-🧠 How It Works
+## 🧠 How It Works
 Emails are queued and processed one by one.
 
 Each send is:
@@ -77,12 +76,12 @@ Tracked with status (stored in memory)
 
 Logged for observability
 
-🧪 Running Tests
+## 🧪 Running Tests
 bash
 npm test
 Tests located in /test folder using Jest.
 
-🌐 Deployment
+## 🌐 Deployment
 You can deploy on:
 
 Railway
@@ -93,7 +92,7 @@ Heroku
 
 Set entry point as src/index.js and use port 3000.
 
-📋 Assumptions
+## 📋 Assumptions
 Only mock providers used; real emails are not sent.
 
 Status & rate limiting are stored in memory.
